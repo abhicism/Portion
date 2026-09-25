@@ -1,7 +1,7 @@
 import { Flame, Loader2, Plus, Search, Trash2, Utensils, PackagePlus } from "lucide-react";
 import { useMemo, useState } from "react";
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://portion.onrender.com/";
 
 /** Round to 1 decimal place for display. */
 const round1 = (n) => Math.round(n * 10) / 10;
